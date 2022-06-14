@@ -1,0 +1,506 @@
+The CPU architecture is skylake 
+80 tasks requested. The list of nodes:  
+run on amo-n002
+
+
+    _________________________________________________
+   |                                                 |
+   |                    T R A C E                    |
+   |                                                 |
+   |                 Version 9.4.3-dev10             |
+   |                                                 |
+   |  Git revision:   v9.4.3-dirty                   |
+   |  Release date:   t.b.a.                         |
+   |                                                 |
+   |  Floating point precision: double               |
+   |_________________________________________________|
+
+
+   [INFO] Working directory    : /bigwork/nhkcmast/10_MA/07_4AV_steady_SST_GammaReTheta_KatoLaudner_Referenz/00_4AV_n17100_p60kPa_p100kPa_Ttot288/run
+   [INFO] Executable           : /bigwork/nhkckcen/sw/skylake/TRACE/9.4_fsi_dp/trace_suite-v9.4.3/trace/TRACE
+   [INFO] Commandline arguments: -cgns ../input/TRACE.cgns -cntl ../input/TRACE_control.input
+   [INFO] using CGNS file '../input/TRACE.cgns'
+   [INFO] using control file '../input/TRACE_control.input'
+   [INFO][process:  0] Reading CGNS - process versions used to generate this file.
+   [INFO][process:  0] GMC version: 9.0.26
+   [INFO][process:  0] TRACE version: 9.1.538.TFD.0
+   [INFO] Turbomachine Specific Setup:
+   [INFO] Component [1]: <4AV> 	ComponentType: Compressor
+   [INFO] 	Stage [1]: <stage01>
+   [INFO] 		Row [02]: R1
+   [INFO] 		Row [06]: S1
+   [INFO] 	Stage [2]: <stage02>
+   [INFO] 		Row [03]: R2
+   [INFO] 		Row [07]: S2
+   [INFO] 	Stage [3]: <stage03>
+   [INFO] 		Row [04]: R3
+   [INFO] 		Row [08]: S3
+   [INFO] 	Stage [4]: <stage04>
+   [INFO] 		Row [05]: R4
+   [INFO] 		Row [09]: S4
+   [INFO] 	Row [01]: <IGV>     	GroupType: Stator
+   [INFO] 	Row [02]: <R1>     	GroupType: Rotor
+   [INFO] 	Row [03]: <R2>     	GroupType: Rotor
+   [INFO] 	Row [04]: <R3>     	GroupType: Rotor
+   [INFO] 	Row [05]: <R4>     	GroupType: Rotor
+   [INFO] 	Row [06]: <S1>     	GroupType: Stator
+   [INFO] 	Row [07]: <S2>     	GroupType: Stator
+   [INFO] 	Row [08]: <S3>     	GroupType: Stator
+   [INFO] 	Row [09]: <S4>     	GroupType: Stator
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+[WARNING] Previous turbulence and transition model settings from GMC have been set to default values. Transition is now OFF (if not explicitly selected in control file).
+
+...
+
+ [INFO]   [2511][zone name: IGV_flux_1_Main_Blade_skin23] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_skin7] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: IGV_flux_1_Main_Blade_upStream3] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_down1] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_down13] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: IGV_flux_1_Main_Blade_upStream20] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_down4] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_down15] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: S4_flux_1_Main_Blade_downStrea] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_shroudgap2] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_up7] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_down13] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_skin] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_skin5] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_skin10] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_skin6] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_up2] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_up9] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_up1] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_up2] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_down9] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_skin8] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_down9] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: IGV_flux_1_Main_Blade_upStream8] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_skin2] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: IGV_flux_1_Main_Blade_skin31] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: IGV_flux_1_Main_Blade_upStream4] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_down19] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: IGV_flux_1_Main_Blade_skin25] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_down1] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_down8] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_up4] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_up8] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: IGV_flux_1_Main_Blade_skin24] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_down11] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_inlet] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_inlet1] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_up8] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_skin4] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_skin4] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: S3_flux_1_Main_Blade_down4] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_up10] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_down6] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_up6] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: IGV_flux_1_Main_Blade_upStream12] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_down14] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_skin6] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_up13] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: S1_flux_1_Main_Blade_up3] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_down3] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_down2] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_skin3] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_skin2] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_up10] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_skin9] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_inlet] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_down15] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_down14] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: S4_flux_1_Main_Blade_downStrea] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_skin7] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_up6] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_down9] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_skin7] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: IGV_flux_1_Main_Blade_upStream21] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_down7] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_up9] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_skin13] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_skin11] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: IGV_flux_1_Main_Blade_upStream16] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_skin5] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_up4] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: S3_flux_1_Main_Blade_down] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_down22] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_up2] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_inlet1] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_skin3] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_skin8] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_up6] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_up8] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_skin10] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_down4] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_skin12] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: IGV_flux_1_Main_Blade_upStream9] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_down9] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_inlet] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_up5] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_down14] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_down8] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_skin12] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_shroudgap1] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_up10] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: S1_flux_1_Main_Blade_up3] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_up13] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_skin2] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: S1_flux_1_Main_Blade_down] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_up10] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_skin5] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_down4] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: IGV_flux_1_Main_Blade_upStream21] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_up2] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_skin6] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_skin8] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_up3] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_up5] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_skin12] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_up6] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_down6] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_skin9] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: IGV_flux_1_Main_Blade_upStream16] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: IGV_flux_1_Main_Blade_upStream4] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: S3_flux_1_Main_Blade_down] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_down16] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_skin7] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_down2] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_up9] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_down7] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R1_flux_1_Main_Blade_down22] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+   [INFO]   [2511][zone name: R3_flux_1_Main_Blade_skin8] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R2_flux_1_Main_Blade_up12] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: S4_flux_1_Main_Blade_downStream1] Solving 2 equation(s) for transport model 'Gamma-ReTheta'.
+   [INFO]   [2511][zone name: R4_flux_1_Main_Blade_skin3] Solving 2 equation(s) for transport model 'Menter SST k-w'.
+
+   ...
+
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_up7]  max. eddyVisc = 167.075 at [13 2 26], tke = 0.00180226, tdr = 6.56197e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_down4]  max. eddyVisc = 55.61 at [2 2 7], tke = 0.000413854, tdr = 4.12298e-06
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_down16]  max. eddyVisc = 97.771 at [18 2 2], tke = 0.000505973, tdr = 3.33688e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_shroudgap1]  max. eddyVisc = 17.2229 at [8 6 83], tke = 0.0019325, tdr = 5.58855e-05
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_outlet1]  max. eddyVisc = 301.801 at [17 31 8], tke = 0.00759111, tdr = 1.48624e-05
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_up14]  max. eddyVisc = 164.14 at [13 2 8], tke = 0.00183668, tdr = 6.72283e-06
+   [INFO]  [10000][zone name: S1_flux_1_Main_Blade_skin6]  max. eddyVisc = 167.591 at [17 32 40], tke = 0.00277234, tdr = 9.23595e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_shroudgap2] y+ Checker : yPlusAv = 8.31618 [1.95604 ... 11.6521]
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_up12]  max. eddyVisc = 298.664 at [17 3 2], tke = 0.0111565, tdr = 2.14308e-05
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_shroudgap2]  max. eddyVisc = 16.9923 at [17 7 80], tke = 0.00158965, tdr = 4.42719e-05
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_up11]  max. eddyVisc = 56.2503 at [25 2 2], tke = 0.000270859, tdr = 2.72265e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_skin]  max. eddyVisc = 118.235 at [17 14 2], tke = 0.00893272, tdr = 3.70288e-05
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_down11]  max. eddyVisc = 382.888 at [14 29 32], tke = 0.00837281, tdr = 1.421e-05
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_skin27]  max. eddyVisc = 86.3418 at [29 20 33], tke = 0.00088704, tdr = 4.06012e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_down23]  max. eddyVisc = 94.254 at [24 15 32], tke = 0.00148004, tdr = 7.91834e-06
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_inlet]  max. eddyVisc = 156.437 at [3 19 8], tke = 0.00111559, tdr = 5.45639e-06
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_down10]  max. eddyVisc = 98.6038 at [33 2 12], tke = 0.000579048, tdr = 3.73117e-06
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_skin2]  max. eddyVisc = 90.9065 at [29 16 8], tke = 0.000728471, tdr = 4.11035e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_skin6]  max. eddyVisc = 99.4963 at [17 28 27], tke = 0.00083917, tdr = 4.6279e-06
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_skin6]  max. eddyVisc = 239.006 at [17 32 39], tke = 0.00324965, tdr = 9.20525e-06
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_up]  max. eddyVisc = 132.556 at [7 15 2], tke = 0.00138102, tdr = 6.50691e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_up13]  max. eddyVisc = 101.718 at [3 2 21], tke = 0.00071006, tdr = 4.80416e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_skin2]  max. eddyVisc = 94.1246 at [17 29 33], tke = 0.0010498, tdr = 6.43203e-06
+   [INFO]  [10000][zone name: S2_flux_1_Main_Blade_down2]  max. eddyVisc = 197.287 at [4 32 23], tke = 0.0024288, tdr = 7.87004e-06
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_skin21]  max. eddyVisc = 99.8183 at [29 20 36], tke = 0.000846168, tdr = 3.93897e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_down9]  max. eddyVisc = 101.303 at [23 29 2], tke = 0.00086125, tdr = 4.24668e-06
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_upStream13]  max. eddyVisc = 128.275 at [5 19 3], tke = 0.000786768, tdr = 3.29213e-06
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_down3]  max. eddyVisc = 272.109 at [7 31 29], tke = 0.00223863, tdr = 5.86477e-06
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_skin]  max. eddyVisc = 616.832 at [17 19 49], tke = 0.024477, tdr = 2.2766e-05
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_down7]  max. eddyVisc = 282.266 at [33 4 22], tke = 0.0147809, tdr = 2.9219e-05
+   [INFO]  [10000][zone name: S1_flux_1_Main_Blade_skin3]  max. eddyVisc = 113.661 at [17 26 2], tke = 0.000894085, tdr = 4.74703e-06
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_up3]  max. eddyVisc = 180.041 at [8 26 2], tke = 0.00146594, tdr = 5.19759e-06
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_up3]  max. eddyVisc = 224.459 at [18 27 28], tke = 0.00195537, tdr = 6.08481e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_up4]  max. eddyVisc = 103.063 at [19 2 28], tke = 0.000446453, tdr = 3.16079e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_down3]  max. eddyVisc = 188.432 at [29 29 20], tke = 0.00977692, tdr = 3.23714e-05
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_down4]  max. eddyVisc = 113.339 at [4 2 12], tke = 0.000682655, tdr = 4.68778e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_down9]  max. eddyVisc = 173.153 at [29 29 2], tke = 0.00164099, tdr = 5.89951e-06
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_down6]  max. eddyVisc = 125.477 at [17 49 2], tke = 0.000743718, tdr = 3.11446e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_up10]  max. eddyVisc = 186.197 at [3 29 21], tke = 0.0017633, tdr = 6.29807e-06
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_inlet]  max. eddyVisc = 84.733 at [2 17 29], tke = 0.000608313, tdr = 3.26457e-06
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_skin10]  max. eddyVisc = 137.681 at [17 6 10], tke = 0.00430703, tdr = 1.80315e-05
+   [INFO]  [10000][zone name: S1_flux_1_Main_Blade_up]  max. eddyVisc = 192.17 at [3 22 2], tke = 0.00756652, tdr = 2.21553e-05
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_skin14]  max. eddyVisc = 48.1529 at [29 31 2], tke = 0.000174118, tdr = 1.63393e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_skin9]  max. eddyVisc = 70.4278 at [16 2 45], tke = 0.000580472, tdr = 4.94124e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_down]  max. eddyVisc = 82.9132 at [6 16 4], tke = 0.00119735, tdr = 7.78063e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_inlet1]  max. eddyVisc = 186.755 at [10 30 8], tke = 0.00188873, tdr = 6.75528e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_skin12]  max. eddyVisc = 54.2659 at [17 2 36], tke = 0.000379192, tdr = 3.88747e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_down22]  max. eddyVisc = 106.56 at [2 2 6], tke = 0.000990424, tdr = 5.03491e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_down6]  max. eddyVisc = 297.328 at [7 23 25], tke = 0.0133313, tdr = 3.01425e-05
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_up9]  max. eddyVisc = 327.829 at [16 29 2], tke = 0.0120246, tdr = 2.31687e-05
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_downStream8]  max. eddyVisc = 1029.38 at [12 21 20], tke = 0.00662012, tdr = 4.24312e-06
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_down15]  max. eddyVisc = 294.366 at [2 3 32], tke = 0.00628901, tdr = 1.2719e-05
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_down7]  max. eddyVisc = 278.228 at [4 31 31], tke = 0.00211313, tdr = 5.40115e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_downStream9]  max. eddyVisc = 1318.87 at [29 2 23], tke = 0.00697554, tdr = 3.56002e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_down8]  max. eddyVisc = 85.5266 at [44 16 31], tke = 0.000977389, tdr = 6.00731e-06
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_skin13]  max. eddyVisc = 148.845 at [17 2 47], tke = 0.00719995, tdr = 2.8028e-05
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_skin6]  max. eddyVisc = 175.662 at [17 24 14], tke = 0.00202485, tdr = 8.0103e-06
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_down5]  max. eddyVisc = 164.444 at [17 21 2], tke = 0.000823388, tdr = 3.72813e-06
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_skin11]  max. eddyVisc = 137.029 at [17 2 20], tke = 0.0017767, tdr = 7.30082e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_down1]  max. eddyVisc = 112.259 at [12 28 8], tke = 0.00084173, tdr = 4.17445e-06
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_up7]  max. eddyVisc = 128.405 at [3 49 37], tke = 0.000783656, tdr = 3.27298e-06
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_skin10]  max. eddyVisc = 121.962 at [16 2 38], tke = 0.00730527, tdr = 3.85604e-05
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_down5]  max. eddyVisc = 219.357 at [2 2 14], tke = 0.00235689, tdr = 7.8065e-06
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_up]  max. eddyVisc = 164.707 at [15 21 28], tke = 0.000815864, tdr = 3.6878e-06
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_skin]  max. eddyVisc = 103.165 at [17 16 24], tke = 0.00111328, tdr = 6.7139e-06
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_skin24]  max. eddyVisc = 54.8648 at [29 33 2], tke = 0.000157513, tdr = 1.52538e-06
+   [INFO]  [10000][zone name: S1_flux_1_Main_Blade_down2]  max. eddyVisc = 172.309 at [3 32 22], tke = 0.00258388, tdr = 8.53677e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_down]  max. eddyVisc = 137.628 at [2 21 11], tke = 0.00113837, tdr = 5.72989e-06
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_down7]  max. eddyVisc = 56.3661 at [12 31 42], tke = 0.000146419, tdr = 1.38203e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_up2]  max. eddyVisc = 134.756 at [14 21 2], tke = 0.000806327, tdr = 4.22894e-06
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_up10]  max. eddyVisc = 232.612 at [3 27 21], tke = 0.00215486, tdr = 6.64977e-06
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_up14]  max. eddyVisc = 217.659 at [5 2 19], tke = 0.00233216, tdr = 7.64014e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_up12]  max. eddyVisc = 279.936 at [25 4 2], tke = 0.0135564, tdr = 2.43199e-05
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_up10]  max. eddyVisc = 167.288 at [7 28 2], tke = 0.0016167, tdr = 5.88403e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_skin14]  max. eddyVisc = 176.685 at [17 2 18], tke = 0.00180952, tdr = 6.94027e-06
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_down4]  max. eddyVisc = 166.186 at [10 22 31], tke = 0.000977272, tdr = 4.36831e-06
+   [INFO]  [10000][zone name: S2_flux_1_Main_Blade_up7]  max. eddyVisc = 195.379 at [3 32 21], tke = 0.00261384, tdr = 8.39145e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_skin15]  max. eddyVisc = 68.9113 at [17 2 2], tke = 0.000793864, tdr = 5.18437e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_up2]  max. eddyVisc = 784.706 at [2 2 2], tke = 0.0258559, tdr = 1.93776e-05
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_down5]  max. eddyVisc = 159.644 at [2 2 10], tke = 0.00184802, tdr = 6.98041e-06
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_down8]  max. eddyVisc = 122.77 at [33 23 31], tke = 0.000887986, tdr = 4.47426e-06
+   [INFO]  [10000][zone name: S2_flux_1_Main_Blade_skin5]  max. eddyVisc = 194.586 at [17 32 17], tke = 0.00251124, tdr = 8.24793e-06
+   [INFO]  [10000][zone name: S1_flux_1_Main_Blade_down7]  max. eddyVisc = 184.326 at [5 32 32], tke = 0.0017732, tdr = 5.52029e-06
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_up2]  max. eddyVisc = 123.929 at [14 23 2], tke = 0.000848328, tdr = 4.32229e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_skin3]  max. eddyVisc = 87.8498 at [17 28 29], tke = 0.000751278, tdr = 4.27365e-06
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_skin2]  max. eddyVisc = 138.272 at [17 18 2], tke = 0.00101006, tdr = 5.01303e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_up]  max. eddyVisc = 142.507 at [25 16 2], tke = 0.000931662, tdr = 4.63024e-06
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_down4]  max. eddyVisc = 100.464 at [2 2 11], tke = 0.00085697, tdr = 5.28138e-06
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_up6]  max. eddyVisc = 153.218 at [21 19 32], tke = 0.00123892, tdr = 5.99211e-06
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_down]  max. eddyVisc = 169.052 at [2 22 2], tke = 0.0015159, tdr = 6.51885e-06
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_down3]  max. eddyVisc = 335.345 at [2 29 59], tke = 0.0118873, tdr = 2.31152e-05
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_down3]  max. eddyVisc = 1039.54 at [3 12 25], tke = 0.0313089, tdr = 1.65961e-05
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_outlet1]  max. eddyVisc = 382.741 at [4 31 6], tke = 0.00961575, tdr = 1.626e-05
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_up13]  max. eddyVisc = 99.6283 at [2 2 21], tke = 0.000838136, tdr = 5.17795e-06
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_up2]  max. eddyVisc = 247.345 at [17 30 16], tke = 0.00175458, tdr = 5.02534e-06
+   [INFO]  [10000][zone name: S2_flux_1_Main_Blade_skin]  max. eddyVisc = 122.195 at [17 21 7], tke = 0.00656495, tdr = 3.23807e-05
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_up4]  max. eddyVisc = 213.051 at [2 2 28], tke = 0.00682873, tdr = 2.31663e-05
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_shroudgap1] y+ Checker : yPlusAv = 9.53995 [3.87349 ... 13.886]
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_skin10]  max. eddyVisc = 96.6833 at [17 2 39], tke = 0.00107617, tdr = 6.42062e-06
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_up8]  max. eddyVisc = 55.6133 at [17 2 3], tke = 0.000139359, tdr = 1.35002e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_up5]  max. eddyVisc = 379.012 at [3 3 10], tke = 0.0105141, tdr = 1.78626e-05
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_shroudgap1]  max. eddyVisc = 24.4669 at [2 7 8], tke = 0.00238734, tdr = 5.50947e-05
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_down]  max. eddyVisc = 156.385 at [3 19 12], tke = 0.00111064, tdr = 5.43231e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_up14]  max. eddyVisc = 186.287 at [3 2 21], tke = 0.00187925, tdr = 6.68693e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_outlet]  max. eddyVisc = 207.372 at [2 24 16], tke = 0.00961391, tdr = 2.99027e-05
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_skin12]  max. eddyVisc = 56.6018 at [29 31 35], tke = 0.000162281, tdr = 1.54116e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_down5]  max. eddyVisc = 186.384 at [2 2 11], tke = 0.00188583, tdr = 6.76379e-06
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_skin9]  max. eddyVisc = 90.4681 at [29 16 15], tke = 0.000784519, tdr = 4.41379e-06
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_skin13]  max. eddyVisc = 36.3729 at [22 2 36], tke = 0.000160328, tdr = 2.0988e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_skin]  max. eddyVisc = 105.134 at [17 16 24], tke = 0.00126256, tdr = 8.3316e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_up1]  max. eddyVisc = 333.927 at [13 25 29], tke = 0.00322317, tdr = 6.54667e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_down1]  max. eddyVisc = 186.389 at [2 29 11], tke = 0.00176918, tdr = 6.36788e-06
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_inlet]  max. eddyVisc = 249.627 at [17 75 9], tke = 0.00334314, tdr = 9.34196e-06
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_skin5]  max. eddyVisc = 26.3106 at [19 12 32], tke = 0.00017121, tdr = 3.31969e-06
+   [INFO]  [10000][zone name: S2_flux_1_Main_Blade_skin1]  max. eddyVisc = 140.55 at [17 25 33], tke = 0.000976426, tdr = 4.66659e-06
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_down8]  max. eddyVisc = 364.976 at [2 5 32], tke = 0.0126354, tdr = 2.25857e-05
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_outlet]  max. eddyVisc = 1103.89 at [6 52 2], tke = 0.0264476, tdr = 1.43104e-05
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_up13]  max. eddyVisc = 110.801 at [2 2 21], tke = 0.000667661, tdr = 4.58794e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_up1]  max. eddyVisc = 371.351 at [2 29 9], tke = 0.00979503, tdr = 1.70096e-05
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_skin5]  max. eddyVisc = 241.106 at [17 28 47], tke = 0.0201696, tdr = 5.30602e-05
+   [INFO]  [10000][zone name: S1_flux_1_Main_Blade_skin4]  max. eddyVisc = 125.879 at [17 33 49], tke = 0.00181203, tdr = 7.7481e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_downStream2]  max. eddyVisc = 1092.33 at [39 21 30], tke = 0.0224285, tdr = 1.21561e-05
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_up]  max. eddyVisc = 787.424 at [6 21 28], tke = 0.0245369, tdr = 2.03915e-05
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_outlet]  max. eddyVisc = 734.829 at [6 22 2], tke = 0.015335, tdr = 1.42878e-05
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_down4]  max. eddyVisc = 103.486 at [4 2 11], tke = 0.000730113, tdr = 4.92899e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_skin3]  max. eddyVisc = 791.219 at [17 44 19], tke = 0.0292846, tdr = 1.98661e-05
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_up5]  max. eddyVisc = 380.357 at [11 5 13], tke = 0.021491, tdr = 3.47491e-05
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_skin3]  max. eddyVisc = 130.812 at [17 17 40], tke = 0.00103543, tdr = 5.70769e-06
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_up11]  max. eddyVisc = 211.35 at [2 2 2], tke = 0.00699034, tdr = 2.36185e-05
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_skin10]  max. eddyVisc = 271.948 at [17 5 10], tke = 0.00870305, tdr = 2.03213e-05
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_outlet1]  max. eddyVisc = 375.954 at [15 32 7], tke = 0.0171212, tdr = 2.87383e-05
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_skin]  max. eddyVisc = 684.261 at [17 19 18], tke = 0.0157257, tdr = 1.18051e-05
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_down1]  max. eddyVisc = 236.179 at [2 27 13], tke = 0.00216479, tdr = 6.70973e-06
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_skin12]  max. eddyVisc = 249.13 at [15 2 2], tke = 0.0203874, tdr = 5.02881e-05
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_inlet]  max. eddyVisc = 137.711 at [3 21 8], tke = 0.00113576, tdr = 5.71907e-06
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_up1]  max. eddyVisc = 344.193 at [2 29 8], tke = 0.0161796, tdr = 2.96249e-05
+   [INFO]  [10000][zone name: R2_flux_1_Main_Blade_skin6]  max. eddyVisc = 166.172 at [17 28 4], tke = 0.00164428, tdr = 6.29379e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_skin1]  max. eddyVisc = 99.6657 at [17 20 45], tke = 0.000884069, tdr = 5.31405e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_skin4]  max. eddyVisc = 680.239 at [17 7 4], tke = 0.0149395, tdr = 1.22842e-05
+   [INFO]  [10000][zone name: S2_flux_1_Main_Blade_inlet]  max. eddyVisc = 195.057 at [16 75 9], tke = 0.00265628, tdr = 8.58724e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_downStream7]  max. eddyVisc = 633.723 at [19 2 44], tke = 0.0138369, tdr = 1.39712e-05
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_outlet]  max. eddyVisc = 277.797 at [2 75 5], tke = 0.00222991, tdr = 5.69515e-06
+   [INFO]  [10000][zone name: S1_flux_1_Main_Blade_skin2]  max. eddyVisc = 90.271 at [16 25 4], tke = 0.000937111, tdr = 5.62785e-06
+   [INFO]  [10000][zone name: S2_flux_1_Main_Blade_down]  max. eddyVisc = 142.555 at [2 25 2], tke = 0.00132332, tdr = 6.01227e-06
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_upStream9]  max. eddyVisc = 60.097 at [6 31 45], tke = 0.000234615, tdr = 2.13111e-06
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_skin1]  max. eddyVisc = 115.389 at [17 15 40], tke = 0.00145336, tdr = 7.98605e-06
+   [INFO]  [10000][zone name: S1_flux_1_Main_Blade_skin7]  max. eddyVisc = 165.613 at [17 31 2], tke = 0.00193252, tdr = 6.77212e-06
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_upStream5]  max. eddyVisc = 128.222 at [24 19 3], tke = 0.000786456, tdr = 3.2908e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_up6]  max. eddyVisc = 135.467 at [3 21 21], tke = 0.00110354, tdr = 5.57547e-06
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_up5]  max. eddyVisc = 169.782 at [2 22 32], tke = 0.00151595, tdr = 6.51893e-06
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_down2]  max. eddyVisc = 248.127 at [5 32 23], tke = 0.00301138, tdr = 8.45586e-06
+   [INFO]  [10000][zone name: S2_flux_1_Main_Blade_down4]  max. eddyVisc = 142.339 at [10 24 31], tke = 0.000865179, tdr = 4.08948e-06
+   [INFO]  [10000][zone name: IGV_flux_1_Main_Blade_upStream12]  max. eddyVisc = 58.9979 at [2 33 45], tke = 0.000226419, tdr = 2.10034e-06
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_skin5]  max. eddyVisc = 243.673 at [17 31 33], tke = 0.00260525, tdr = 7.56894e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_downStrea]  max. eddyVisc = 1322.26 at [30 24 23], tke = 0.00693592, tdr = 3.52931e-06
+   [INFO]  [10000][zone name: S1_flux_1_Main_Blade_up5]  max. eddyVisc = 126.444 at [2 26 32], tke = 0.00136919, tdr = 6.23313e-06
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_skin4]  max. eddyVisc = 611.045 at [17 20 7], tke = 0.0251597, tdr = 2.28358e-05
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_up7]  max. eddyVisc = 251.362 at [4 32 18], tke = 0.00324046, tdr = 8.95061e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_skin2]  max. eddyVisc = 244.2 at [17 22 6], tke = 0.00278585, tdr = 5.83658e-06
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_up4]  max. eddyVisc = 164.989 at [17 21 17], tke = 0.000890429, tdr = 3.99202e-06
+   [INFO]  [10000][zone name: S1_flux_1_Main_Blade_skin5]  max. eddyVisc = 168.654 at [17 32 19], tke = 0.0026226, tdr = 8.7547e-06
+   [INFO]  [10000][zone name: S2_flux_1_Main_Blade_down6]  max. eddyVisc = 203.821 at [4 32 31], tke = 0.00214175, tdr = 6.77659e-06
+   [INFO]  [10000][zone name: R4_flux_1_Main_Blade_down6]  max. eddyVisc = 555.278 at [2 26 32], tke = 0.0127521, tdr = 1.56098e-05
+   [INFO]  [10000][zone name: S2_flux_1_Main_Blade_down3]  max. eddyVisc = 213.83 at [6 32 29], tke = 0.00194999, tdr = 5.87021e-06
+   [INFO]  [10000][zone name: S2_flux_1_Main_Blade_up5]  max. eddyVisc = 143.024 at [2 25 32], tke = 0.00132333, tdr = 6.0123e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_up13]  max. eddyVisc = 55.4417 at [2 2 25], tke = 0.000408224, tdr = 4.07039e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_downStream1]  max. eddyVisc = 1248.35 at [11 2 20], tke = 0.00395945, tdr = 2.1923e-06
+   [INFO]  [10000][zone name: R1_flux_1_Main_Blade_skin8]  max. eddyVisc = 74.8986 at [13 2 2], tke = 0.00578645, tdr = 3.8127e-05
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_up6]  max. eddyVisc = 244.209 at [14 31 12], tke = 0.00201026, tdr = 5.75233e-06
+   [INFO]  [10000][zone name: S2_flux_1_Main_Blade_outlet]  max. eddyVisc = 206.902 at [2 75 2], tke = 0.00147737, tdr = 4.62242e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_up4]  max. eddyVisc = 409.093 at [4 23 32], tke = 0.0048493, tdr = 8.97181e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_inlet]  max. eddyVisc = 408.992 at [17 23 17], tke = 0.00484894, tdr = 8.9713e-06
+   [INFO]  [10000][zone name: R3_flux_1_Main_Blade_up8]  max. eddyVisc = 137.062 at [25 16 2], tke = 0.000958979, tdr = 4.92103e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_downStream3]  max. eddyVisc = 1318.93 at [33 2 20], tke = 0.0155481, tdr = 7.67894e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_down2]  max. eddyVisc = 226.044 at [13 33 2], tke = 0.00643754, tdr = 1.93273e-05
+   [INFO]  [10000][zone name: S2_flux_1_Main_Blade_skin6]  max. eddyVisc = 185.316 at [17 32 39], tke = 0.00259084, tdr = 8.60277e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_skin1]  max. eddyVisc = 692.962 at [17 44 50], tke = 0.0306859, tdr = 2.21227e-05
+   [INFO]  [10000][zone name: S2_flux_1_Main_Blade_up4]  max. eddyVisc = 141.078 at [17 24 18], tke = 0.000795309, tdr = 3.76685e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_downStream4]  max. eddyVisc = 1275.23 at [11 21 20], tke = 0.00420107, tdr = 2.2759e-06
+   [INFO]  [10000][zone name: S3_flux_1_Main_Blade_skin1]  max. eddyVisc = 159.825 at [17 21 30], tke = 0.00116375, tdr = 5.308e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_down]  max. eddyVisc = 407.202 at [13 23 2], tke = 0.00484994, tdr = 8.97281e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_up5]  max. eddyVisc = 233.479 at [8 33 20], tke = 0.00485301, tdr = 1.42466e-05
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_downStream]  max. eddyVisc = 942.811 at [6 21 20], tke = 0.00491071, tdr = 3.47756e-06
+   [INFO]  [10000][zone name: S4_flux_1_Main_Blade_downStream5]  max. eddyVisc = 418.275 at [35 3 2], tke = 0.001541, tdr = 2.53866e-06
+   [INFO]  [10000] Started writing CGNS file '../output/cgns/TRACE_2D.cgns'
+   [INFO]  [10000] Started writing CGNS file '../output/cgns/TRACE.cgns'
+  [10000]    3.8273e-06 3.9977e-02     276  12  17  39                1334.17     387 1.0161e-04      1.0826e-05        1.8338e-03                       2.7542e-07                         8.3775e-08         50       0         50
+   [INFO][process:  0] Leaving Trace main iteration loop!
+   [INFO][process:  0] TERMINATE all processes at step 10001
+   [INFO] writing CGNS file '../output/cgns/TRACE_2D.cgns' done
+   [INFO] writing CGNS file '../output/cgns/TRACE.cgns' done
+                        TRACE terminated normally at 2022-06-03 14:50:34
+                            MPI rank          CPU time   peak memory used
+                                   0       3:54:50.000          800944 kB
+                                   1       4:01:44.000          893132 kB
+                                   2       4:02:09.000          810364 kB
+                                   3       4:02:01.000          898208 kB
+                                   4       4:02:24.000          793584 kB
+                                   5       4:02:02.000          876868 kB
+                                   6       4:02:15.000          838320 kB
+                                   7       4:02:18.000          886296 kB
+                                   8       4:02:29.000          794972 kB
+                                   9       4:02:18.000          883740 kB
+                                  10       4:02:17.000          845620 kB
+                                  11       4:02:25.000          885608 kB
+                                  12       4:02:24.000          843512 kB
+                                  13       4:02:26.000          807412 kB
+                                  14       4:02:33.000          814368 kB
+                                  15       4:02:33.000          806804 kB
+                                  16       4:02:30.000          807828 kB
+                                  17       4:02:31.000          789260 kB
+                                  18       4:02:29.000          787080 kB
+                                  19       4:02:30.000          792500 kB
+                                  20       4:02:31.000          795152 kB
+                                  21       4:02:29.000          813296 kB
+                                  22       4:02:30.000          802820 kB
+                                  23       4:02:23.000          808036 kB
+                                  24       4:02:05.000          799396 kB
+                                  25       4:02:20.000          812956 kB
+                                  26       4:02:11.000          801752 kB
+                                  27       4:02:25.000          818500 kB
+                                  28       4:02:27.000          797740 kB
+                                  29       4:02:30.000          797720 kB
+                                  30       4:02:30.000          799272 kB
+                                  31       4:02:23.000          846324 kB
+                                  32       4:02:32.000          796352 kB
+                                  33       4:02:31.000          814132 kB
+                                  34       4:02:33.000          803092 kB
+                                  35       4:02:34.000          818032 kB
+                                  36       4:02:33.000          810760 kB
+                                  37       4:02:33.000          795156 kB
+                                  38       4:02:33.000          802668 kB
+                                  39       4:02:34.000          793728 kB
+                                  40       4:02:33.000          789800 kB
+                                  41       4:02:30.000          793944 kB
+                                  42       4:02:31.000          799768 kB
+                                  43       4:02:31.000          796372 kB
+                                  44       4:02:31.000          803444 kB
+                                  45       4:02:30.000          811688 kB
+                                  46       4:02:32.000          805336 kB
+                                  47       4:02:32.000          812460 kB
+                                  48       4:02:31.000          794372 kB
+                                  49       4:02:33.000          810564 kB
+                                  50       4:02:32.000          808752 kB
+                                  51       4:02:33.000          811364 kB
+                                  52       4:02:32.000          805860 kB
+                                  53       4:02:33.000          790588 kB
+                                  54       4:02:31.000          788844 kB
+                                  55       4:02:32.000          786972 kB
+                                  56       4:02:32.000          797160 kB
+                                  57       4:02:32.000          802480 kB
+                                  58       4:02:32.000          800972 kB
+                                  59       4:02:32.000          795644 kB
+                                  60       4:02:30.000          810884 kB
+                                  61       4:02:33.000          789592 kB
+                                  62       4:02:32.000          796564 kB
+                                  63       4:02:33.000          802792 kB
+                                  64       4:02:33.000          780408 kB
+                                  65       4:02:35.000          781336 kB
+                                  66       4:02:35.000          792124 kB
+                                  67       4:02:35.000          797148 kB
+                                  68       4:02:32.000          792036 kB
+                                  69       4:02:34.000          788960 kB
+                                  70       4:02:33.000          781548 kB
+                                  71       4:02:34.000          786328 kB
+                                  72       4:02:25.000          789548 kB
+                                  73       4:02:20.000          789740 kB
+                                  74       4:02:18.000          787216 kB
+                                  75       4:02:23.000          785728 kB
+                                  76       4:02:13.000          799980 kB
+                                  77       4:02:19.000          799780 kB
+                                  78       4:02:20.000          826692 kB
+                                  79       4:02:25.000          797956 kB
+                               TOTAL     323:08:12.000        64666048 kB
+                        real time (wall clock time) = 4:03:27.769
+
+================================================================================
+========================== Job Accounting Information ==========================
+=                                                                              =
+=  To get more details about the job, execute: sacct -o all -j 376288
+=                                                                              =
+================================================================================
+
+       JobID    JobName ReqNodes  ReqCPUS     ReqMem  Timelimit   TotalCPU  SystemCPU    UserCPU     MaxRSS   NNodes   NTasks    Elapsed      State ExitCode                       NodeList 
+------------ ---------- -------- -------- ---------- ---------- ---------- ---------- ---------- ---------- -------- -------- ---------- ---------- -------- ------------------------------ 
+376288       00_4AV_n1+       20       80        4Gc   12:00:00 13-11:17:+   01:13:31 13-10:03:+                  20            04:03:36  COMPLETED      0:0 amo-n[002,005,013,015,020,023+ 
+376288.batch      batch        1        4        4Gc             08:06.603  06:36.980  01:29.622     12564K        1        1   04:03:36  COMPLETED      0:0                       amo-n002 
+376288.exte+     extern       20       80        4Gc             00:00.017  00:00.011  00:00.006      1508K       20       20   04:03:36  COMPLETED      0:0 amo-n[002,005,013,015,020,023+ 
+376288.0          TRACE       20       80        4Gc            13-11:08:+   01:06:54 13-10:02:+    898192K       20       80   04:03:31  COMPLETED      0:0 amo-n[002,005,013,015,020,023+ 
+
+================================================================================
+===================== Description of job accounting fields =====================
+================================================================================
+
+  JobID     - ID number of the job/step.
+               <JobID>.batch: resources requested/used by all commands (including mpirun!) in the job script EXCEPT srun
+               <JobID>.extern: resources used by external commands (e.g. session opened by SSH on the reserved node)
+               <JobID>.<number>: resources requested/used by the job step (COMMAND srun!) of <number> in the job script
+
+  ReqNodes  - Requested number of nodes for the job/step
+  ReqCPUS   - Requested number of CPUs for the job/step
+  ReqMem    - Requested amount of memory per CPU ('c' at the end) or 
+              per node ('n' at the end) for the job (NOT the step)
+  Timelimit - Wallclock time requested for the job
+
+  TotalCPU  - Total CPU time (SystemCPU + UserCPU) used by the job/step
+  MaxRSS    - Maximum memory(resident set size) among all tasks in the job/step
+  NNode     - Number of nodes in the job/step
+  NTasks    - Number of tasks in the job/step
+  Elapsed   - Wallclock time spent on the job/step
+  ExitCode  - Exit code returned by the job/step
+  NodeList  - List of nodes used in job/step
+
