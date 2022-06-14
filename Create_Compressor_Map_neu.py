@@ -3,7 +3,7 @@
 """
 Created on Fri Nov 22 15:36:18 2019
 
-@author: sauer
+@author: sauer, elshof, stoewer
 """
 
 import os
