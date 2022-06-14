@@ -5,7 +5,7 @@ Das ist das GitHub Repo zur Überarbeitung des Python-Skripts "Create_Compressor
 - Create_Compressor_Map.py: Für SLURM angepasstes Skript. Problem: Kennlinien-Berechnung wird nicht fortgesetzt für nächsten Betriebspunkt
 - 220614_stoewer_Create_Compressor_Map.py:
   - folgende Sachen wurden geändert:
-  - 
+  ![1](https://user-images.githubusercontent.com/92665372/173520829-420ff9f7-3975-4b99-bf58-0c6165495b33.png)
   - folgende Fehlermeldung ist aufgetreten:
   - 
 - TRACE_entry.input: Datei mit Eintrittsrandbedingungen
