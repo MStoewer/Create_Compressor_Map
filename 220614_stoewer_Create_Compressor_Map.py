@@ -71,10 +71,23 @@ def run_map(stepList, timesteps, trace_control_cmd, nodes, cpus, mem, gmcPlay_ex
         print(os.getcwd())
         print('Simulation has been started')
         time.sleep(5400)
+	
         while os.path.isfile('./run/log.run') is False:
             time.sleep(600)
             continue
-        test = open('./run/log.run','r').read()
+		
+	while os.path.isfile('./run/log.run') is True:
+		test = open('./run/log.run','r').read()
+            
+	    		if open('./run/log.run','r').read().find('Job Accounting Information') is True:
+            			print('Simulation ended')
+            			os.system('rm ./run/TRACE.lst.*')
+            			os.system('rm ./output/cgns/TRACE.cgns.backup')
+				break
+				
+		time.sleep(600)
+            continue
+        
 
         if open('./run/log.run','r').read().find('TRACE terminated normally') is True:
             print('Simulation converged, starting next simulation')
