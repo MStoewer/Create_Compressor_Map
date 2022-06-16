@@ -292,7 +292,7 @@ POST_EXE = "/home/nhkcssch/sw/sandy_bridge/post/9.1.538.TFD.0/POST"
 #Define steplist for back pressure
 
 
-stepList =  np.concatenate([np.arange(1.0, 1.3, 0.05)*10**5,  np.arange(1.3, 1.46, 0.02)*10**5, np.arange(1.46, 1.55, 0.01)*10**5])
+stepList =  np.concatenate([np.arange(100.0, 130.0, 5.0)*10**3,  np.arange(130.0, 146.0, 2.0)*10**3, np.arange(146.0, 156.0, 1.0)*10**3])
 
 folderName = stepList / 1000
 
@@ -310,23 +310,3 @@ mem = "4G"
 if status == 1:
     trace_control_cmd = ['all immediate ChangeTurbulenceSettings --model MenterSST2003 --stagnationPointAnomalyFix KatoLaunder --solutionMethod ILU --transitionModel GammaReTheta\nall immediate ChangeScalarTransportAttr --model TURBULENCE --spaceAccuracy 2ndOrder\nall immediate SetCflNum 20']
     continue_map(sim_number, timesteps, trace_control_cmd, nodes, cpus, mem, gmcPlay_exe, folderName)
-    
-
-#create_map_file(script_path,POST_EXE)
-
-#postdir = os.path.join('112_4AV_n17100_p60kPa_p152kPa_Ttot288','post')
-
-#MassFlow = read_d0_variable(postdir,'MassFlowUnsigned',zones=['IGV_INFLOW'])
-#MassFlow_corr = read_d0_variable(postdir,'MassFlowCorrected',zones=['IGV_INFLOW'])
-
-#EffPoly = read_d0_variable(postdir,'EfficiencyPolytropic',d0type='relations')
-#PI_tot  = read_d0_variable(postdir,'PressureStagnationAbsRatio',d0type='relations')
-#PressureIn = read_d0_variable(postdir,'Pressure',zones=['IGV_INFLOW'],ave='area')
-#PressureOut = read_d0_variable(postdir,'Pressure',zones=['S4_OUTFLOW'],ave='area')
-#Ma_in = read_d0_variable(postdir,'Mach',zones=['IGV_INFLOW'])
-#RPressureStatAbs=PressureOut/PressureIn
-#EffIsen = read_d0_variable(postdir,'EfficiencyIsentropicHWoLeak',d0type='relations')
-#T_in = read_d0_variable(postdir,'Temperature',zones=['IGV_INFLOW'],ave='area')
-#TemperatureOut = read_d0_variable(postdir,'Temperature',zones=['S4_OUTFLOW'],ave='area')
-#Back_pressure = read_d0_variable(postdir,'Pressure',zones=['S4_OUTFLOW'],ave='area')
-#Power = read_d0_variable(postdir,'PowerHLeak',d0type='relations')
